@@ -2,7 +2,9 @@
 # -*- coding: UTF-8 -*-
 import cgi
 import cgitb
+
 cgitb.enable()
+
 
 class FollowingTheTAsInstructionsError(Exception):
     def __init__(self):
@@ -11,9 +13,10 @@ class FollowingTheTAsInstructionsError(Exception):
             "and to delete this error!"
         ))
 
+
 # Delete this line:
-raise FollowingTheTAsInstructionsError
+# raise FollowingTheTAsInstructionsError
 
 # Edit the following two lines:
-username = "<pick a username here>"
-password = "<pick a password here>"
+username = "123"
+password = "123"

@@ -1,0 +1,8 @@
+1. os.environ
+2. QUERY_STRING
+3. HTTP_USER_AGENT
+4.
+5. Set-Cookie: <cookie-name>=<cookie-value>
+6. Cookie: yummy_cookie=choco; tasty_cookie=strawberry
+7. Since http is stateless, cookies help server to remember client specific stuff such as identification and session
+8. https://github.com/yuqian5/CMPUT404LAB03.git
